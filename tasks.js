@@ -104,10 +104,9 @@ function set_gen(arr){
             }
         }
     }
-    newArr.sort(function(a, b) {
-        return a - b;
-      });
-    console.log(newArr)
+    
+    const mySet = new Set(newArr);
+    console.log(mySet)
 }
 
  
