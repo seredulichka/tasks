@@ -97,9 +97,9 @@ function set_gen(arr){
         if(counts[numbers[i]]===1){
             newArr.push(+numbers[i])
         } else{
-            let b = numbers[i];
+            let b = +numbers[i];
             for(let j=0; j< counts[numbers[i]];j++ ){
-                newArr.push(+b)  
+                newArr.push(b)  
                 b+=numbers[i]
             }
         }
